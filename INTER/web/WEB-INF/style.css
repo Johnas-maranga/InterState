@@ -1,0 +1,153 @@
+*{
+	margin: 0 auto;
+	padding: 0px;
+}
+#header{
+	height: 100px;
+	background: #dddddd;	
+}
+#t1{
+	font-family: Tw Cen MT condensed;
+	text-transform: uppercase;
+	font-size: 70px;
+	color: #228b22;
+	text-shadow: 0 1px 2px #808080;
+}
+#t2{
+	font-family: scriptina;
+	text-transform: capitalize;
+	font-size: 30px;
+	color: #9e502a;
+	text-shadow: 0 0 2px #808080;
+	line-height: 0px;
+	font-weight: bold;
+}
+#navigation{
+	height: 40px;
+	background: #bbbbbb;	
+}
+#navigation ul{
+	list-style-type: none;	
+}
+#navigation li{
+	display: inline;	
+}
+#navigation li a{
+	text-decoration: none;
+	color: #a000aa;
+	font-size: 20px;
+	line-height: 40px;
+	font-family: calibri;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 5px 20px;
+}
+#navigation li a:hover{
+	background: #000056;
+	text-decoration: none;
+	color: gold;
+	font-size: 20px;
+	line-height: 40px;
+	font-family: calibri;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 5px 20px;
+	border-radius: 4px;
+}
+#body{
+	height: 400px;
+	background: url('images/2.jpg') ;
+}
+#dropdown{
+	float: left;
+	margin-top: 20px;
+	margin-left: 80px;
+}
+#dropdown ul{
+	list-style-type: none;
+}
+#dropdown ul li{
+	display: block;
+	position: relative;
+}
+#dropdown ul li a{
+	text-decoration: none;
+	height: 30px;
+	width: 190px;
+	background: #1bc2a2;
+	display: block;
+	text-align: center;
+	font-family: calibri;
+	color: white;
+	font-size: 18px;
+	border: 1px solid #078e74;
+}
+#dropdown ul li a:hover{
+	text-decoration: none;
+	height: 30px;
+	width: 190px;
+	background: blue;
+	display: block;
+	text-align: center;
+	font-family: calibri;
+	color: gold;
+	font-size: 18px;
+	border: 1px solid #078e74;
+}
+#dropdown li ul{
+	display: none;
+}
+#dropdown ul li a{
+	text-decoration: none;
+	height: 30px;
+	width: 190px;
+	background: #1bc2a2;
+	display: block;
+	text-align: center;
+	font-family: calibri;
+	color: white;
+	font-size: 18px;
+}
+#dropdown li:hover > ul{
+	display: block;
+	position: absolute;
+	margin-left: 190px;
+	top: 0px;
+}
+#welcome{
+	height: 350px;
+	width: 600px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 380px;
+	border-radius: 3px;
+	box-shadow: 0 0 20px #000;
+	background: #edf5ff;
+	padding: 10px 20px 20px 30px;
+}
+#t3{
+	font-family: candara;
+	font-size: 25px;
+	color: #3cb321;
+}
+#t4{
+	font-family: calibri;
+	font-size: 20px;
+	color: #000080;
+	padding-top: 10px;
+}
+#footer1{
+	height: 60px;
+	background: #666666;	
+}
+#img-1{
+	padding: 10px 30px;
+}
+#footer2{
+	height: 25px;
+	background: #000;
+	color: #fff;
+	font-family: calibri;
+	font-size: 13px;
+	line-height: 25px;
+}
